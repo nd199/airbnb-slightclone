@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  object-fit: cover;
+  box-sizing: border-box;
+  font-family: "Noto+Serif", "Courier New", Courier, monospace;
+}
+
+.cards-list {
+  width: 100vw;
+  margin: auto;
+  padding: 0rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow-x: auto;
+  gap: 3rem;
+  max-width: 95vw;
+}
+
+@media screen and (max-width: 340px) {
+  .cards-list {
+    margin-left: 2rem;
+  }
+}

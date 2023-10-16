@@ -1,0 +1,93 @@
+#contentOne {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: (100vh - 6rem);
+  margin: 4rem auto;
+  padding: 0.5rem;
+  max-width: 90vw;
+  flex-wrap: wrap;
+}
+
+.content-img {
+  width: 100%;
+  max-width: 90vw;
+  height: auto;
+}
+
+.content-text {
+  display: flex;
+  margin: 3rem auto;
+  flex-direction: column;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.heading {
+  margin: 2rem auto;
+  font-size: 3vw;
+  font-weight: 900;
+  text-align: center;
+}
+
+.main-para {
+  font-weight: 500;
+  max-width: 90vw;
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 350px) {
+  .heading {
+    font-size: 1.65rem;
+  }
+  .main-para {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .heading {
+    font-size: 1.65rem;
+  }
+  .main-para {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 1.65rem;
+  }
+  .main-para {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .heading {
+    font-size: 1.65rem;
+  }
+  .main-para {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .heading {
+    font-size: 1.65rem;
+  }
+  .main-para {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .heading {
+    font-size: 1.65rem;
+  }
+  .main-para {
+    font-size: 0.75rem;
+  }
+}
